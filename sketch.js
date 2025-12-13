@@ -30,7 +30,7 @@ function preload() {
   back = loadImage('배경.png');
   backfront = loadImage('배경틀.png');
   // heartImg = loadImage('하트.png'); // Removed heart image load
-  Font = loadFont('NEXON_Warhaven_OTF_Bold.otf');
+  //Font = loadFont('');
   Font2 = loadFont('ZEN-SERIF-Regular.otf');
   Font3 = loadFont('Quindelia.ttf');
   shootSound = loadSound('뽕.mp3');
