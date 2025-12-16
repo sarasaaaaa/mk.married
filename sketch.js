@@ -80,7 +80,7 @@ function setup() {
           restitution: 0.8,
           friction: 0.5
         });
-        p.emoji = random(['❤️']);
+        p.emoji = random(['🩷']);
         particles.push(p);
         World.add(world, p);
       }
