@@ -80,7 +80,7 @@ function setup() {
           restitution: 0.8,
           friction: 0.5
         });
-        p.emoji = random(['🩷']);
+        p.emoji = random(['❤️']);
         particles.push(p);
         World.add(world, p);
       }
@@ -165,7 +165,7 @@ function draw() {
     myFrameCount = 0;
     arrowPos.set(centerX, centerY);
     // Only start aiming if clicking near the bow (radius 150)
-    if (mouseIsPressed && dist(mouseX, mouseY, centerX, centerY) < 150) {
+    if (mouseIsPressed && dist(mouseX, mouseY, centerX, centerY) < 80) {
       state = 'AIMING';
     }
   } else if (state === 'AIMING') {
