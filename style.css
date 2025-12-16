@@ -9,8 +9,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 canvas {
   display: block;
+  order: 1;
+}
+
+@font-face {
+  font-family: 'ChosunGu';
+  src: url('ChosunGu.TTF');
+}
+
+h1 {
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: #000;
+  font-family: 'ChosunGu', sans-serif;
+  text-align: center;
+  order: 2;
 }

@@ -33,7 +33,7 @@ function preload() {
   //Font = loadFont('');
   Font2 = loadFont('ZEN-SERIF-Regular.otf');
   Font3 = loadFont('Quindelia.ttf');
-  shootSound = loadSound('뽕.mp3');
+  shootSound = loadSound('ppong.mp3');
 }
 
 function setup() {
